@@ -3,3 +3,7 @@ const hover = document.querySelector('.hover');
 const modal = document.querySelector('.modal');
 const close = document.querySelector('.close');
 
+function show(){
+    hover.classList.add('active');
+    modal.classList.add('show');
+}
