@@ -71,3 +71,58 @@ body{
     opacity: .8;
 }
 
+.hamburger-menu:hover{
+    opacity: 1;
+}
+
+.hamburger-menu .center{
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+.hamburger-menu:before, .hamburger-menu:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+}
+
+.hamburger-menu:before{
+    top: 0;
+}
+
+.hamburger-menu:after{
+    bottom: 0;
+}
+
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main .image{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: url('img/profile.jpg') no-repeat center / cover;
+    border: 4px solid #000000;
+    margin-bottom: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
