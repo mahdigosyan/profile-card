@@ -41,3 +41,20 @@ body{
     height: 265px;
 }
 
+
+.mail{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: .8;
+    transition: .3s;
+    z-index: 3;
+    text-decoration: none;
+}
+
+.mail:hover{
+    opacity: 1;
+}
+
