@@ -134,7 +134,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(79, 172, 254, .7);
+    background-color: rgba(207, 178, 83, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,3 +151,4 @@ body{
 .hover.active{
     opacity: 1;
 }
+
