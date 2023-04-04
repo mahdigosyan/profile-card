@@ -151,4 +151,12 @@ body{
 .hover.active{
     opacity: 1;
 }
+.name{
+    font-size: 1.2rem;
+    color: #1d1d1d;
+    font-weight: 500;
+    line-height: 1;
+    margin: 5px 0;
+}
+
 
